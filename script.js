@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_PATH = `/loginpage`; // https://rikuhirayama.github.io/loginpage/
+const APP_PATH = `/loginpage`; // https://rikuhirayama.github.io
 let auth0 = null;
 const fetchAuthConfig = () => fetch("auth_config.json"); // auth_config.json読み込み
 
